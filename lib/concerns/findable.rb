@@ -1,4 +1,5 @@
 module Findable
+  include ObjectSpace
   
   def find_by_name(name)
     def find_by_name(name)
