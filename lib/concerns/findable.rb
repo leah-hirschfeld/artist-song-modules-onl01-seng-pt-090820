@@ -1,4 +1,5 @@
 module Findable
+  attr_accessor :name
 
   def find_by_name(name)
     def find_by_name(name)
